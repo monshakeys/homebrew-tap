@@ -1,0 +1,79 @@
+# ╔═══════════╗
+# ╠  Default  ╣
+# ╚═══════════╝
+* text=auto eol=lf
+*.dll   binary
+*.doc*  binary
+*.dylib binary
+*.exe   binary
+*.gif   binary
+*.ico   binary
+*.jar   binary
+*.jpeg  binary
+*.jpg   binary
+*.pdf   binary
+*.png   binary
+*.ppt*  binary
+*.so    binary
+*.tar*  binary
+*.webp  binary
+*.xls*  binary
+*.zip   binary
+*.css   diff=css
+*.scss  diff=css
+*.html  diff=html
+*.sh    text eol=lf
+*.svg   text
+*.log   linguist-generated
+*.md    linguist-documentation
+*.txt   linguist-documentation
+LICENSE linguist-documentation
+
+# ╔══════╗
+# ╠  AI  ╣
+# ╚══════╝
+.claude/*  linguist-vendored
+.codex/*   linguist-vendored
+.cursor/*  linguist-vendored
+.gemini/*  linguist-vendored
+.serena/*  linguist-vendored
+
+# ╔════════╗
+# ╠  Node  ╣
+# ╚════════╝
+*.min.css          linguist-generated
+*.min.js           linguist-generated
+package-lock.json  linguist-generated
+pnpm-lock.yaml     linguist-generated
+yarn.lock          linguist-generated
+
+# ╔══════════╗
+# ╠  Python  ╣
+# ╚══════════╝
+*.py             diff=python
+.flake8          linguist-vendored
+.pycodestyle     linguist-vendored
+.python-version  linguist-vendored
+poetry.lock      linguist-generated
+pyproject.toml   linguist-vendored
+
+# ╔════════╗
+# ╠  Rust  ╣
+# ╚════════╝
+*.rs               diff=rust
+**/*.generated.rs  linguist-generated
+**/*_generated.rs  linguist-generated
+Cargo.lock         linguist-generated
+
+# ╔═══════════╗
+# ╠  Develop  ╣
+# ╚═══════════╝
+.docker/*     linguist-vendored
+.github/**/*  linguist-vendored
+.kube/*       linguist-vendored
+docs/*        linguist-documentation
+
+# ╔══════════╗
+# ╠  Custom  ╣
+# ╚══════════╝
+zen.*  linguist-documentation

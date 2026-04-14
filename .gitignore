@@ -1,0 +1,101 @@
+# ╔══════════╗
+# ╠  System  ╣
+# ╚══════════╝
+# Mac: desktop services store
+.AppleDB
+.AppleDesktop
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+*.cache
+**/Network Trash Folder/
+**/Temporary Items/
+*~
+# Windows: image cache file
+._*
+$RECYCLE.BIN/
+desktop.ini
+ehthumbs.db
+Thumbs.db
+# Google: google cloud sync
+.tmp.drivedownload/
+*.driveupload
+
+# ╔══════════╗
+# ╠  Editor  ╣
+# ╚══════════╝
+# Visual Studio Settings
+.devcontainer/
+.idea/
+.vscode/
+.vscodeignore
+*.code-workspace
+
+# ╔══════╗
+# ╠  AI  ╣
+# ╚══════╝
+**/*/CLAUDE.md
+.claude/*.json
+.codex/*.toml
+.cursor/*.json
+.gemini/*.json
+
+# ╔════════╗
+# ╠  Node  ╣
+# ╚════════╝
+.npm
+.pnp.*
+.yarn/
+node_modules/
+
+# ╔══════════╗
+# ╠  Python  ╣
+# ╚══════════╝
+*.py[cod]
+.coverage
+.ipynb_checkpoints
+.pytest_cache/
+.ruff_cache/
+.venv
+/media/
+__pycache__/
+htmlcov/
+venv/
+
+# ╔════════╗
+# ╠  Rust  ╣
+# ╚════════╝
+**/*.rs.bk
+*.pdb
+target/
+
+# ╔═══════════╗
+# ╠  Develop  ╣
+# ╚═══════════╝
+*.log
+logs/**
+!logs/**/.gitkeep
+build/
+dist/
+out/
+sps/
+
+# ╔══════════════╗
+# ╠  Production  ╣
+# ╚══════════════╝
+*.key
+*.pem
+.env
+.env.dev
+.env.local
+.env.prod
+/secrets/
+
+# ╔══════════╗
+# ╠  Custom  ╣
+# ╚══════════╝
+# or maybe put them into ".git/info/exclude"
+.bashrc
